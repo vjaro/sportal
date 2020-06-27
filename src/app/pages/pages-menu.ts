@@ -8,29 +8,18 @@ export const MENU_ITEMS: NbMenuItem[] = [
     home: true,
   },
   {
-    title: 'FEATURES',
-    group: true,
+    title: 'Cases',
+    icon: 'home-outline',
+    link: '/pages/cases',
   },
   {
-    title: 'Auth',
-    icon: 'lock-outline',
-    children: [
-      {
-        title: 'Login',
-        link: '/auth/login',
-      },
-      {
-        title: 'Register',
-        link: '/auth/register',
-      },
-      {
-        title: 'Request Password',
-        link: '/auth/request-password',
-      },
-      {
-        title: 'Reset Password',
-        link: '/auth/reset-password',
-      },
-    ],
+    title: 'Bugs',
+    icon: 'home-outline',
+    link: '/pages/bugs',
+  },
+  {
+    title: 'Knowledge Base',
+    icon: 'home-outline',
+    link: '/pages/knowledgebase',
   },
 ];

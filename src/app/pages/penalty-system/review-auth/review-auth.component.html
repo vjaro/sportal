@@ -1,0 +1,142 @@
+<nb-card accent="info" >
+  <nb-card-header>Review and Authorization</nb-card-header>
+  <nb-card-body>
+    <form>
+      <div class="form-group row">
+        <label class="col-sm-3 label">Date Type</label>
+        <div class="col-sm-9">
+          <nb-select placeholder="Select Showcase" selected="">
+            <nb-option value="">Trading Date</nb-option>
+            <nb-option value="0">Option 0</nb-option>
+            <nb-option value="1">Option 1</nb-option>
+            <nb-option value="2">Option 2</nb-option>
+            <nb-option value="3">Option 3</nb-option>
+            <nb-option value="4">Option 4</nb-option>
+          </nb-select>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="col-sm-3 label">Range Start</label>
+        <div class="col-sm-9">
+          <input nbInput placeholder="Pick Date" [nbDatepicker]="formpicker">
+          <nb-datepicker #formpicker></nb-datepicker>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="col-sm-3 label">Range End</label>
+        <div class="col-sm-9">
+          <input nbInput placeholder="Pick Date" [nbDatepicker]="formpicker">
+          <nb-datepicker #formpicker></nb-datepicker>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="col-sm-3 label">Run Type</label>
+        <div class="col-sm-9">
+          <nb-select placeholder="Select Showcase" selected="">
+            <nb-option value="">All</nb-option>
+            <nb-option value="0">Option 0</nb-option>
+            <nb-option value="1">Option 1</nb-option>
+            <nb-option value="2">Option 2</nb-option>
+            <nb-option value="3">Option 3</nb-option>
+            <nb-option value="4">Option 4</nb-option>
+          </nb-select>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="col-sm-3 label">Status</label>
+        <div class="col-sm-9">
+          <nb-select placeholder="Select Showcase" selected="">
+            <nb-option value="">All</nb-option>
+            <nb-option value="0">Option 0</nb-option>
+            <nb-option value="1">Option 1</nb-option>
+            <nb-option value="2">Option 2</nb-option>
+            <nb-option value="3">Option 3</nb-option>
+            <nb-option value="4">Option 4</nb-option>
+          </nb-select>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="offset-sm-3 col-sm-9">
+          <button type="submit" nbButton status="primary">Search</button>
+        </div>
+      </div>
+    </form>
+  </nb-card-body>
+  <table class="table table-hover">
+    <thead>
+    <tr>
+      <th scope="col">Trading Date</th>
+      <th scope="col">Run Time</th>
+      <th scope="col">Type</th>
+      <th scope="col">Exec</th>
+      <th scope="col">Auth</th>
+      <th scope="col">Comments</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>23 Oct 29</td>
+      <td>07 Nov 2019 03:07:13</td>
+      <td>F</td>
+      <td>&#x2714;</td>
+      <td>&#x2714; &#x2714;</td>
+      <td>Scheduled Run</td>
+    </tr>
+
+    <tr>
+      <td>23 Oct 29</td>
+      <td>07 Nov 2019 03:07:13</td>
+      <td>F</td>
+      <td>&#x2714;</td>
+      <td>&#x2714; &#x2714;</td>
+      <td>Scheduled Run</td>
+    </tr>
+
+    <tr>
+      <td>23 Oct 29</td>
+      <td>07 Nov 2019 03:07:13</td>
+      <td>F</td>
+      <td>&#x2714;</td>
+      <td>&#x2714; &#x2714;</td>
+      <td>Scheduled Run</td>
+    </tr>
+
+    <tr>
+      <td>23 Oct 29</td>
+      <td>07 Nov 2019 03:07:13</td>
+      <td>F</td>
+      <td>&#x2714;</td>
+      <td>&#x2714; &#x2714;</td>
+      <td>Scheduled Run</td>
+    </tr>
+
+    <tr>
+      <td>23 Oct 29</td>
+      <td>07 Nov 2019 03:07:13</td>
+      <td>F</td>
+      <td>&#x2714;</td>
+      <td>&#x2714; &#x2714;</td>
+      <td>Scheduled Run</td>
+    </tr>
+
+    <tr>
+      <td>23 Oct 29</td>
+      <td>07 Nov 2019 03:07:13</td>
+      <td>F</td>
+      <td>&#x2714;</td>
+      <td>&#x2714; &#x2714;</td>
+      <td>Scheduled Run</td>
+    </tr>
+
+    <tr>
+      <td>23 Oct 29</td>
+      <td>07 Nov 2019 03:07:13</td>
+      <td>F</td>
+      <td>&#x2714;</td>
+      <td>&#x2714; &#x2714;</td>
+      <td>Scheduled Run</td>
+    </tr>
+
+    </tbody>
+  </table>
+</nb-card>

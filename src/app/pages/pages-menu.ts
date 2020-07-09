@@ -8,18 +8,8 @@ export const MENU_ITEMS: NbMenuItem[] = [
     home: true,
   },
   {
-    title: 'Cases',
+    title: 'Penalty System',
     icon: 'home-outline',
-    link: '/pages/cases',
-  },
-  {
-    title: 'Bugs',
-    icon: 'home-outline',
-    link: '/pages/bugs',
-  },
-  {
-    title: 'Knowledge Base',
-    icon: 'home-outline',
-    link: '/pages/knowledgebase',
+    link: '/pages/penalty-system',
   },
 ];

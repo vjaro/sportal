@@ -3,9 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { CasesComponent } from './cases/cases.component';
-import { BugsComponent } from './bugs/bugs.component';
-import { KnowledgebaseComponent } from './knowledgebase/knowledgebase.component';
+import { PenaltySystemComponent } from './penalty-system/penalty-system.component';
 
 const routes: Routes = [{
   path: '',
@@ -16,16 +14,8 @@ const routes: Routes = [{
       component: DashboardComponent,
     },
     {
-      path: 'cases',
-      component: CasesComponent,
-    },
-    {
-      path: 'bugs',
-      component: BugsComponent,
-    },
-    {
-      path: 'knowledgebase',
-      component: KnowledgebaseComponent,
+      path: 'penalty-system',
+      component: PenaltySystemComponent,
     },
     {
       path: '',

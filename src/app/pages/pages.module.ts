@@ -4,6 +4,7 @@ import { NbMenuModule } from '@nebular/theme';
 import { ThemeModule } from '../@theme/theme.module';
 import { PagesComponent } from './pages.component';
 import { DashboardModule } from './dashboard/dashboard.module';
+import { PenaltySystemModule} from './penalty-system/penalty-system.module';
 import { PagesRoutingModule } from './pages-routing.module';
 
 @NgModule({
@@ -12,6 +13,7 @@ import { PagesRoutingModule } from './pages-routing.module';
     ThemeModule,
     NbMenuModule,
     DashboardModule,
+    PenaltySystemModule,
   ],
   declarations: [
     PagesComponent,

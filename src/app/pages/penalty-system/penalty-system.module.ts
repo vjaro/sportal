@@ -4,6 +4,7 @@ import { NbStepperModule } from '@nebular/theme';
 
 import { ThemeModule } from '../../@theme/theme.module';
 import { PenaltySystemComponent } from './penalty-system.component';
+import { TradeFlowComponent } from './trade-flow/trade-flow.component';
 
 @NgModule({
   imports: [
@@ -13,6 +14,7 @@ import { PenaltySystemComponent } from './penalty-system.component';
   ],
   declarations: [
     PenaltySystemComponent,
+    TradeFlowComponent,
   ],
 
 })

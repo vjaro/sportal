@@ -1,0 +1,11 @@
+::ng-deep .label {
+  text-align: center;
+  font-size: 0.60rem;
+}
+
+
+.nb-theme-default nb-stepper .header .step.completed .label-index {
+  background-color: #357d10;
+  border-color: #357d10;
+  color: #ffffff;
+}

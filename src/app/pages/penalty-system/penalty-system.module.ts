@@ -6,11 +6,16 @@ import { NbInputModule} from '@nebular/theme';
 import { NbButtonModule } from '@nebular/theme';
 import { NbDatepickerModule } from '@nebular/theme';
 import { NbSelectModule } from '@nebular/theme';
+import { NbAccordionModule } from '@nebular/theme';
+import { NbEvaIconsModule } from '@nebular/eva-icons';
+import { NbIconModule } from '@nebular/theme';
 
 import { ThemeModule } from '../../@theme/theme.module';
 import { PenaltySystemComponent } from './penalty-system.component';
 import { TradeFlowComponent } from './trade-flow/trade-flow.component';
 import { ReviewAuthComponent } from './review-auth/review-auth.component';
+import { MarketSummaryComponent } from './market-summary/market-summary.component';
+
 
 @NgModule({
   imports: [
@@ -22,11 +27,15 @@ import { ReviewAuthComponent } from './review-auth/review-auth.component';
     NbButtonModule,
     NbDatepickerModule,
     NbSelectModule,
+    NbAccordionModule,
+    NbEvaIconsModule,
+    NbIconModule,
   ],
   declarations: [
     PenaltySystemComponent,
     TradeFlowComponent,
     ReviewAuthComponent,
+    MarketSummaryComponent,
   ],
 
 })

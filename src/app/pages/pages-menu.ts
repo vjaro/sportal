@@ -9,7 +9,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
   },
   {
     title: 'Penalty System',
-    icon: 'home-outline',
+    icon: 'alert-triangle-outline',
     link: '/pages/penalty-system',
   },
 ];
